@@ -10,6 +10,7 @@
    --color-base-purpple: hsl(244, 38%, 28%);
    --color-base-white: hsl(0, 0%, 100%);
    --color-base-purpple-background: linear-gradient(hsl(242, 50%, 38%), hsl(244, 38%, 28%));
+   --color-base-purpple-footer: linear-gradient( to right,hsl(242, 50%, 38%), hsl(244, 38%, 28%));
 }
 
 
@@ -99,4 +100,67 @@ h2 {
 
 .form_send {
   padding: 4.87rem 2.43rem 4.06rem 2.5rem;
+}
+
+.form-name {
+  padding-bottom: 2.68rem;
+  font-size: 2rem;
+}
+
+input {
+  width: 21.68rem;
+  border-radius: 1rem;
+  font-family: 'Mulish', sans-serif;
+  padding: 1rem 1rem 1rem 3.12rem;
+  color: var(--color-base-purpple);
+  border-style: solid;
+  border-color: var(--color-base-purpple);
+}
+
+.text1, .email1 {
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.text1 {
+  background-image: url(image/person.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+.email1 {
+  background-image: url(image/at.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+#fill1 {
+  height: 7.87rem;
+  padding: 1rem 1rem 1rem 1rem;
+  
+}
+
+button {
+  width: 9.43rem;
+  background: var(--color-base-purpple-footer);
+  text-align: center;
+  color: var(--color-base-white);
+  border: none;
+  height: 2.81rem;
+  padding: 0.65rem  0.8rem 0.65rem 0.65rem;
+  margin-top: 1.5rem;
+  border-radius: 1.24rem;
+  cursor: pointer;
+
+}
+
+.footer1{
+  background: var(--color-base-purpple-footer);
+  height: 4.87rem;
+}
+
+.footer-message {
+  padding: 2rem  1rem 2rem 1rem;
+  text-align: center;
+  color: var(--color-base-white);
 }
