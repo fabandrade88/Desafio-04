@@ -169,7 +169,13 @@ button {
   color: var(--color-base-white);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   body {
     width: 1440px;
@@ -189,12 +195,33 @@ button {
     flex-direction: row-reverse;
   }
   .main-image {
-    padding: 0 1.85rem 6.47rem 0;
+    padding: 0 1.85rem 0 0;
+    width: 719.36px;
+    height: 732.36px;
+    align-items: center;
+  }
+  
+  #title {
+    display: flex;
+    flex-direction: column;
+    padding: 19.5rem 1.75rem 0 6.81rem;
   }
 
   h1 {
-    padding: 19.5rem 1.75rem 0.5rem 6.81rem;
     font-size: 3.62rem;
+    height: 4.5rem;
+  }
+
+  .subtext1 {
+    padding: 0.5rem 11.18rem 11.18rem 6.81rem;
+    font-size: 2rem;
+    align-items: start;
+    height: 1.43rem;
+  }
+
+  .indicador-img {
+    padding: 0 32.71rem 8.5rem 6.81rem;
+    align-items: start;
   }
 
   .options1 {
@@ -209,11 +236,39 @@ button {
 
   .yellow1, .yellow2, .yellow3 {
     width: 366px;
-    height: 448px;
+    height: 400px;
   }
   
   .yellow2 {
     padding-left: 0;
   }
  
+  .form_send {
+    width: 1440px;
+    height: 612px;
+    background-image: url(image/image\ 11976.svg);
+    background-repeat: no-repeat;
+    background-position: 644px 612px;
+    background-position: right;
+    font-size: 1rem;
+  }
+  .form-name {
+    padding-bottom: 1.87rem;
+    font-size: 2.62rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 46rem 0 0;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  footer {
+    width: 1440px;
+    height: 78px;
+  }
+   
 }
